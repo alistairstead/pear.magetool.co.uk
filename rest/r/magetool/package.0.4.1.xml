@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>MageTool</name>
+ <channel>pear.magetool.co.uk</channel>
+ <summary>Additional ZF tools specifically for use during Magento development.</summary>
+ <description>Additional ZF tools specifically for use during Magento development. Adding commands that will be useful during development with Magento. Command include: Clear cache, enable / disable cache and create admin user.</description>
+ <lead>
+  <name>Alistair Stead</name>
+  <user>alistair.stead</user>
+  <email>alistair.stead@designdisclosure.com</email>
+  <active>yes</active>
+ </lead>
+ <contributor>
+  <name>Toni Grigoriu</name>
+  <user>tonigrigoriu</user>
+  <email>tonigrigoriu@php.net</email>
+  <active>yes</active>
+ </contributor>
+ <date>2011-06-02</date>
+ <time>20:21:59</time>
+ <version>
+  <release>0.4.1</release>
+  <api>0.4.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+ <notes>
+Added new config lint functionality
+Updated other commands to provide more feedback
+Fixed a bug with exception handling for extension generation
+Integrated downstream commits for the extension skeleton files
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c48879dc1ebf6dd20c2f9b551f94ad6e" name="MageTool/Lint.php" role="php" />
+   <file baseinstalldir="/" md5sum="debd9b60de8997c6814cf6aa1a5d8625" name="MageTool/Lint/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="3c2f5ab2e21f325cbdb8f2b5b2c3b4d9" name="MageTool/Lint/Adminhtml.php" role="php" />
+   <file baseinstalldir="/" md5sum="02e5d4ef8ff50bac9576dcb7c5b93d7d" name="MageTool/Lint/Api.php" role="php" />
+   <file baseinstalldir="/" md5sum="cdc050af78ab08068b1e71958792b3e4" name="MageTool/Lint/Config.php" role="php" />
+   <file baseinstalldir="/" md5sum="81ea968218af724abd88da94653bdabb" name="MageTool/Lint/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="ece441a1a8c9567ec22edbb9706af30e" name="MageTool/Lint/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="13d43fb078136ff4c33ce4804ce1f826" name="MageTool/Lint/Message.php" role="php" />
+   <file baseinstalldir="/" md5sum="e8c3cd3dc2d6cb3be68f033024c94603" name="MageTool/Lint/System.php" role="php" />
+   <file baseinstalldir="/" md5sum="0c4e7b526f50210d839fe1a1d221bb8c" name="MageTool/Lint/Xml.php" role="php" />
+   <file baseinstalldir="/" md5sum="c0be88a6418196ae42b76baebf709d0b" name="MageTool/Tool/MageApp/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f0f8d6239a03a6ad13ca62e2f38ca588" name="MageTool/Tool/MageApp/Provider/Abstract.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="53c5ad74da8dd9a2bcc3ce404a1459d3" name="MageTool/Tool/MageApp/Provider/App.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f5a2e62ff0818806bba33b31a2f07c85" name="MageTool/Tool/MageApp/Provider/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8986fc4d29cbfe225ef886d7e387d96c" name="MageTool/Tool/MageApp/Provider/Manifest.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="91951279295f8e3bb1cb306beec3ebce" name="MageTool/Tool/MageApp/Provider/Admin/User.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="116aed633a28095e60d9e2dc3a0d46f5" name="MageTool/Tool/MageApp/Provider/Core/Cache.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="72b2b63b3a00aa46301cff7bccc33fef" name="MageTool/Tool/MageApp/Provider/Core/Compiler.php" role="php" />
+   <file baseinstalldir="/" md5sum="714c83ae731787bb46eb3a16885cda4e" name="MageTool/Tool/MageApp/Provider/Core/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0e2955094970057301b20e4b7e5be943" name="MageTool/Tool/MageApp/Provider/Core/Indexer.php" role="php" />
+   <file baseinstalldir="/" md5sum="e85a57577e835cfa4e6d9c2dd549af83" name="MageTool/Tool/MageApp/Provider/Core/Resource.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cd0319d016d8c11181c535dbc0a09bdc" name="MageTool/Tool/MageExtension/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f412b4b42bfbb8414f1f26875de39719" name="MageTool/Tool/MageExtension/Profile.php" role="php" />
+   <file baseinstalldir="/" md5sum="1949c22ed94a64887d2916972bcc1731" name="MageTool/Tool/MageExtension/Context/Extension/AbstractFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="9ac975b7b2a4a2bc4a6e3c4e542035cb" name="MageTool/Tool/MageExtension/Context/Extension/AdminhtmlFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="4c87d0179badd34ac7d1f5b8b3940e90" name="MageTool/Tool/MageExtension/Context/Extension/ApiFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="6bb35fe0925a0bde22a0b88ba55720de" name="MageTool/Tool/MageExtension/Context/Extension/BlockDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="e47974961097a731762928a5b6daedee" name="MageTool/Tool/MageExtension/Context/Extension/ConfigFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="2225b6a97b3e36ddd71e5aa47458c6d4" name="MageTool/Tool/MageExtension/Context/Extension/ControllerDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="abf6465371c64c8da6120d87ee4fd490" name="MageTool/Tool/MageExtension/Context/Extension/EntityDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="75152b5626bdb26cd5e8a493ebb78ee3" name="MageTool/Tool/MageExtension/Context/Extension/EtcDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="5c0521302f3e1cb1e3562be88388ab03" name="MageTool/Tool/MageExtension/Context/Extension/ExtensionDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2b658439da50c216c1d4c5d2d45bcb8" name="MageTool/Tool/MageExtension/Context/Extension/HelperDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1e535c6bf04d45107ff898c1e8b03e6" name="MageTool/Tool/MageExtension/Context/Extension/HelperFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="827ffdae995d4e0f7b0852848ac80a88" name="MageTool/Tool/MageExtension/Context/Extension/InstallFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="a06dff93e9ab47419ba23de1c01cf86e" name="MageTool/Tool/MageExtension/Context/Extension/ModelDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="95f4e4fdcc7125a223960bb4a71208da" name="MageTool/Tool/MageExtension/Context/Extension/ModelFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="65909b20b1a4f0d13cbec1cbc4219326" name="MageTool/Tool/MageExtension/Context/Extension/ObserverFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="30f8fa69e7597f9d802d2b236e4bfca6" name="MageTool/Tool/MageExtension/Context/Extension/SetupDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="481fa01c848402452d9163291cf0c6ce" name="MageTool/Tool/MageExtension/Context/Extension/SetupFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="4c12eda5975d28bb7791be18434ab54d" name="MageTool/Tool/MageExtension/Context/Extension/SqlDirectory.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3381876a14adf0baef528b91e8df77b" name="MageTool/Tool/MageExtension/Context/Extension/SystemFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="2b74af4f7739ebb303d97c330291219b" name="MageTool/Tool/MageExtension/Context/Extension/WsdlFile.php" role="php" />
+   <file baseinstalldir="/" md5sum="ded57aa089f2a0d92adbd77cd4dc38b9" name="MageTool/Tool/MageExtension/Profile/FileParser/Xml.php" role="php" />
+   <file baseinstalldir="/" md5sum="9a020bc2a0fbbc8417be0a8ad43369bc" name="MageTool/Tool/MageExtension/Provider/Abstract.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="34981377ff764c5325b1f3fe0448ab67" name="MageTool/Tool/MageExtension/Provider/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="3875371a54441a7b6c0d857217b74714" name="MageTool/Tool/MageExtension/Provider/Extension.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc025f65da0d170e1b849f391839bab3" name="MageTool/Tool/MageExtension/Provider/Manifest.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0b43cf54885fb25a395eecfe6e2c3f03" name="MageTool/Tool/Provider/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="61e1075895b9e1c7b0dae17273e8eee6" name="MageTool/Tool/Provider/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="37a3506cdc422d9114f3535f89022d24" name="LICENSE" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.6</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>zf</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.11.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-12-01</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Added the extension tasks.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-12-08</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Added the extension tasks.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-01-21</date>
+   <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+   <notes>
+Added new functionality to run the Magento compiler on the cmd line. You 
+Can also enable and disable the use of the compiled source.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-02-09</date>
+   <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+   <notes>
+Added feedack when running mage-core-resource commands
+Added functionality to dispatch events from the command line
+Added functionality to run the specific resource setup from the command line
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.1</release>
+    <api>0.4.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-06-02</date>
+   <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+   <notes>
+Added new config lint functionality
+Updated other commands to provide more feedback
+Fixed a bug with exception handling for extension generation
+Integrated downstream commits for the extension skeleton files
+   </notes>
+  </release>
+ </changelog>
+</package>

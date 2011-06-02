@@ -7,6 +7,17 @@
     </author>
 
     <entry>
+        <title>MageTool 0.4.1 (beta)</title>
+        <link href="http://pear.magetool.co.uk//get/MageTool-0.4.1.tgz" />
+        <id>MageTool-0.4.1</id>
+        <author>
+            <name>alistair.stead</name>
+        </author>
+        <updated>2011-06-02T20:21:59+01:00</updated>
+        <content>
+            Additional ZF tools specifically for use during Magento development. Adding commands that will be useful during development with Magento. Command include: Clear cache, enable / disable cache and create admin user.
+        </content>
+    </entry>    <entry>
         <title>MageTool 0.3.0 (beta)</title>
         <link href="http://pear.magetool.co.uk//get/MageTool-0.3.0.tgz" />
         <id>MageTool-0.3.0</id>
