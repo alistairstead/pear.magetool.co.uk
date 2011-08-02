@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/magetool">MageTool</p>
+    <c>pear.magetool.co.uk</c>
+    <v>0.5.1</v>
+    <a>0.5.1</a>
+    <mp>5.2.6</mp>
+    <st>beta</st>
+    <l>OSL 3.0</l>
+    <m>alistair.stead</m>
+    <s>Additional ZF tools specifically for use during Magento development.</s>
+    <d>Additional ZF tools specifically for use during Magento development. Adding commands that will be useful during development with Magento. Command include: Clear cache, enable / disable cache and create admin user.</d>
+    <da>2011-08-01 19:00:04</da>
+    <n>
+Added new config lint functionality
+Updated other commands to provide more feedback
+Fixed a bug with exception handling for extension generation
+Integrated downstream commits for the extension skeleton files
+ </n>
+    <f>31964</f>
+    <g>http://pear.magetool.co.uk//get/MageTool-0.5.1</g>
+    <x xlink:href="package.0.5.1.xml"/>
+</r>
