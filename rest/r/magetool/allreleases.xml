@@ -3,6 +3,10 @@
     <p>MageTool</p>
     <c>pear.magetool.co.uk</c>
     <r>
+        <v>0.5.1</v>
+        <s>beta</s>
+    </r>
+    <r>
         <v>0.4.1</v>
         <s>beta</s>
     </r>
